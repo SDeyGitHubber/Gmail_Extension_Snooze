@@ -19,6 +19,7 @@
     "homepage": "https://github.com/SDeyGitHubber/Gmail_Extension_Snooze#readme",
     "dependencies": {
         "@inboxsdk/core": "^0.2.20",
+        "@rollup/plugin-json": "^6.0.0",
         "dotenv": "^16.0.3"
     },
     "devDependencies": {

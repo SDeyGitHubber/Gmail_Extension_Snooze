@@ -1,4 +1,6 @@
-require('dotenv').config();
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 const apiKey = process.env.APIKey;
 const clientId = process.env.clientID;
 
@@ -8,7 +10,6 @@ var gapi = window.gapi;
 // Initialize the Gmail API
 gapi.load("client:auth2", function() {
   gapi.client.init({
-    //apiKey: "AIzaSyCXfHPh2iY9i5WgO3ZIcUyGMMHFPmRZxcs",
     apiKey: apiKey,
     clientId: clientId,
     discoveryDocs: [

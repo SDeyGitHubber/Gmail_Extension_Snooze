@@ -1,9 +1,13 @@
 // Loading the InboxSDK library
 import * as InboxSDK from "@inboxsdk/core";
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+const appId = process.env.AppId;
 
 console.log("hello world");
 
-InboxSDK.load(2, "sdk_snoozegmail_f5429770ee").then((sdk) => {
+InboxSDK.load(2, appId).then((sdk) => {
   // the SDK has been loaded
   sdk.Compose.registerComposeViewHandler((composeView) => {
     // a compose view has come into existence

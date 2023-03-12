@@ -1,10 +1,11 @@
 import nodeResolve from "@rollup/plugin-node-resolve";
 import copy from "rollup-plugin-copy";
 import commonjs from "@rollup/plugin-commonjs";
+import json from "@rollup/plugin-json";
 
 const OUTPUT_DIR = "dist";
 
-const plugins = [nodeResolve(), commonjs()];
+const plugins = [nodeResolve(), commonjs(), json()];
 
 export default [
   {
