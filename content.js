@@ -1,4 +1,4 @@
-// Load the InboxSDK library
+// Loading the InboxSDK library
 import * as InboxSDK from "@inboxsdk/core";
 
 console.log("hello world");
