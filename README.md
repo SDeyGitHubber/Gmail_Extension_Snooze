@@ -10,6 +10,10 @@ Technologies used in the project:
 3.Javascript language  
 4.Manifest V3  
 5.Rollup/Plugin-json  
+  
+Thought behind the project:  
+  
+To exercise our skills, learn and develop a constructive web application that enables users to boost their productivity 
 
 Team:  
 
