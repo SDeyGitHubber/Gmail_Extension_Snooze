@@ -8,11 +8,14 @@
         "js": ["content.js"]
       }
     ],
-    "permissions": [
+    "host_permissions": [
       "https://mail.google.com/",
       "https://www.googleapis.com/auth/gmail.modify"
     ],
     "icons":{
+      "32":"32_snooze_icon.png",
+      "64":"64_snooze_icon.png",
+      "128":"128_snooze_icon.png"
     },
     "background": {
       "service-worker":"background.js"
